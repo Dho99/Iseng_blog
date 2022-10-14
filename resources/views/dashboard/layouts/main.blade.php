@@ -11,7 +11,9 @@
     {{-- trix editor --}}
       <link rel="stylesheet" type="text/css" href="/css/trix.css">
       <script type="text/javascript" src="/js/trix.js"></script>
+        <style>
 
+        </style>
     
     <!-- Custom styles for this template -->
     <link href="/css/dashboard.css" rel="stylesheet">
