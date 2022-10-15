@@ -30,7 +30,10 @@
               <td>{{ $post->category->name }}</td>
               <td><a href="/dashboard/posts/{{ $post->slug }}" class="badge bg-info"><span data-feather="eye"></span></a>
                 <a href="" class="badge bg-warning"><span data-feather="edit"></span></a>
-                <a href="" class="badge bg-danger"><span data-feather="x-circle"></span></a>
+                <form action="/dashboard/posts" method="post">
+                  @method('delete')
+                </form>
+                <a href="" class="badge bg-danger"><span data-feather="x-circle">Delete</span></a>
               </td>
             </tr>
             
